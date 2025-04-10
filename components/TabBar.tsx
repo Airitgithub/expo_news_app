@@ -30,8 +30,8 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
       <Animated.View style={[animatedStyle, {
         position: 'absolute',
         backgroundColor: Colors.tint,
-        top: 52,
-        left: 34,
+        top: 45,
+        left: 32,
         height: 8,
         width: 40,
       }]} />
@@ -87,8 +87,8 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
 const styles = StyleSheet.create({
   tabbar: {
     flexDirection: 'row',
-    paddingTop: 16,
-    paddingBottom:40,
+    paddingTop: 10,
+    paddingBottom:10,
     backgroundColor: Colors.white,
   }
 })
